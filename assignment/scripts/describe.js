@@ -25,10 +25,11 @@ if (number >= 2) {
 */
 
 
-// 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// 0. WRITE YOUR DESCRIPTION HERE
+// We set the variable for number as 1
+//the ++ symbol is incrementing the variable, so it is adding one.  
+// the syntax then prompts that if the new number is greater than or equal to the value 2, the console should show the word "Yes"
+// the console will show yes
 //
 
 //CODE
@@ -42,11 +43,12 @@ if (name === 'Mary') {
 }
 
 
-*/
+*/ 
 
-// 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// 1. WRITE YOUR DESCRIPTION HERE
+// This sets the variable for name at Dane. 
+//The sytax states that if the variable contains the name Mary, the console should show 'Hi Mary'
+//otherwise it should show 'How do you do'
 // 
 //
 
@@ -69,12 +71,12 @@ console.log(secret)
 
 */
 
-// 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
-
+// 2. WRITE YOUR DESCRIPTION HERE
+// this creates a variable called super and another called code
+// the variable for code is set at 123
+// the conditional states that if the code is 123, the result should be variable secret set for 'super' and the code should be multipled by 2
+// the next conditional states that if the code is more than 250, the result should show variable secret as 'duper'
+// the console.log will print out the variable secret, which in this case means it will return string 'super' since it meets the requirements of the first conditional and not the second.
 //CODE
 /*
 let isStudent = true;
@@ -93,7 +95,16 @@ if (isStudent === true && zip > 80000 ) {
 
 */
 
-
+// 3. WRITE YOUR DESCRIPTION HERE
+// a variable called isStudent is set to true, and 2 other variables set to age and zip are given the values 34 and 55407 respectively
+// the conditional states that if the variable of isStudent is true AND the value of zip is more than zero
+// the console will display `You're a student on the West Coast!`
+// however if isStudent is false or the value of age is less than 30
+// the console will display 'What are your hobbies?'
+// the third conditional states that if isStudent is true
+// the console will display 'Welcome to Prime!'
+// if none of these conditionals are met
+// the console will display 'How about the weather?'
 
 
 // REVERSE
@@ -131,13 +142,14 @@ if (number >= 2) {
 
 /*
 let colorOne = 'red';
+// fix - set colorOne to blue and colorTwo to red
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
 }
-*/
+//we only set colorOne to Purple, but the instructions stated to set both colors to purple.
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -148,6 +160,7 @@ let temp = 40;
 const time = 4;
 
 if (temp > 39 || time >= 4) {
+// replace || with && to show both conditions must be true
   console.log('throw away the food!');
 }
 */
@@ -161,9 +174,12 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
+// this shows if the minimum age is less than or equal to age
+// to fix -- age >== minAge 
+// this checks if age is greater than or equal to minAge
   console.log('no entry');
 } else {
   console.log('enter');
 }
+if(minAge <= age) is the same, in logic, as if(age >= minAge), the answer we wre looking for was to follow the given logic and see that the two console logs are incorrect and need to be swapped.
 */
-
